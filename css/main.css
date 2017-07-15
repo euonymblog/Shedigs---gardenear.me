@@ -1,0 +1,106 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+  /*border: 1px solid pink;*/
+  color: white;
+}
+@font-face{
+	font-family: 'MyWebFont';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?iefix') format('eot'),
+	     url('WebFont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+/*This is the helper section*/
+h1, h2, h3 {
+  font-family: 'MyWebFont', PrintBold;
+}
+
+h4, p {
+  font-family: 'MyWebFont', PrintClearly;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 5%;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4{
+ font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.fa {
+  font-size: 4em;
+}
+
+.topic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.button {
+  padding: 2% 5%;
+  background-color: white;
+  margin: auto;
+}
+
+.button h3{
+  color: #E29E2D;
+}
+/*This is the ids section*/
+
+#headline {
+  background-image: url('../images/headline.jpg');
+  padding-top: 15%;
+}
+
+#intro {
+  background-image: url('../images/intro.jpg');
+  padding-top: 10%;
+  padding-right: 2%;
+  padding-left: 2%;
+
+}
+
+#list {
+  background-image: url('../images/list.jpg');
+  padding-top: 10%;
+}
+
+#aboutUs {
+  background-image: url('../images/aboutUs.jpg');
+  padding-top: 10%;
+}
+
+#aboutUs p {
+  margin: 0 2% 7% 2%;
+}
+#contactUs {
+  background-color: #91C840;
+  padding-top: 10%;
+}
+
+#contactUs p {
+  margin-top: 7%;
+}
+footer {
+
+}
