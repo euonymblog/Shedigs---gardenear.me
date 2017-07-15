@@ -73,18 +73,23 @@ a {
 
 .nextPage {
   font-size: 1em;
-  padding-top: 15%
+  padding-top: 10%
 }
 
 .nav {
   background-color: rgba(8,89,63,0.5);
 }
 
-img {
-  padding-top: 6%;
-}
 
 /*This is the ids section*/
+
+#logo {
+  background-image: url('../images/gardenbnb.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 54vh;
+}
 
 #headline {
   background-image: url('../images/headline.jpg');
