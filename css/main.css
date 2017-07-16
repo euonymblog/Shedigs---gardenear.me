@@ -7,9 +7,9 @@
   color: white;
 }
 @font-face{
-	font-family: PrintBold;
+	font-family: 'PrintBold';
 	src: url('PrintBold-webfont.woff') format('woff');
-  font-family: PrintClearly;
+  font-family: 'PrintClearly';
   src: url('PrintClearly-webfont.woff') format('woff');
 }
 
