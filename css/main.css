@@ -96,7 +96,7 @@ a {
 }
 
 #intro {
-  background-image: url('../images/intro.jpg');
+  background-color: #91C840;
   padding-top: 10%;
   padding-right: 2%;
   padding-left: 2%;
@@ -109,7 +109,7 @@ a {
 }
 
 #aboutUs {
-  background-image: url('../images/aboutUs.jpg');
+  background-color: #91C840;
   padding-top: 10%;
 }
 
@@ -117,7 +117,8 @@ a {
   margin: 0 2% 2% 2%;
 }
 #contactUs {
-  background-color: #91C840;
+  background-image: url('../images/aboutUs.jpg');
+
   padding-top: 10%;
 }
 
@@ -126,4 +127,9 @@ a {
 }
 footer {
 
+}
+@media only screen and (max-width: 500px) {
+  .fa-arrow-circle-down {
+    visibility: hidden;
+  }
 }
