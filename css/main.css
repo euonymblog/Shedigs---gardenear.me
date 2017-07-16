@@ -6,12 +6,12 @@
   /*border: 1px solid pink;*/
   color: white;
 }
-/*@font-face{
+@font-face{
 	font-family: PrintBold;
 	src: url('PrintBold-webfont.woff') format('woff');
-  font-family: 'PrintClearly  ';
+  font-family: PrintClearly;
   src: url('PrintClearly-webfont.woff') format('woff');
-}*/
+}
 
 /*This is the helper section*/
 h1, h2, h3 {
